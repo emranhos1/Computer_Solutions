@@ -1,0 +1,17 @@
+
+<h1>Contact Us</h1>
+<h3>Locations</h3>
+<div ng-repeat="contact in contacts">
+    <div>
+        <ul>
+            <li><strong>ID : </strong>{{contact.id}}</li>
+            <li><img class="img1" src="images/{{contact.image}}" alt=""/></li>
+            <li><strong>Name : </strong>{{contact.name}}</li>
+            <li><strong>Address : </strong>{{contact.address}}, {{contact.district}}, {{contact.zip}}</li>
+            <li><strong>Phone : </strong>{{contact.phone}}</li>
+            <li><strong>Email : </strong>{{contact.email}}</li>
+        </ul>
+    </div>
+</div>
+
+
